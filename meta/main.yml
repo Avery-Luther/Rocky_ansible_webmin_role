@@ -16,7 +16,6 @@ galaxy_info:
         - "7"
     - name: Fedora
       versions:
-        - "37"
         - "36"
     - name: Debian
       versions:
@@ -28,4 +27,3 @@ galaxy_info:
         - focal
   galaxy_tags:
   - webmin
-
