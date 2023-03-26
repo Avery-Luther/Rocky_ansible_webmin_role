@@ -4,32 +4,28 @@ galaxy_info:
   description: webmin role
   company: SEMU Consulting
 
-  license: BSD
+  license: BSD 3-Clause
 
-  min_ansible_version: 2.4
+  min_ansible_version: "7"
 
   platforms:
     - name: EL
       versions:
-        - 6
-        - 7
-        - 8
+        - "9"
+        - "8"
+        - "7"
     - name: Fedora
       versions:
-        - 29
-        - 30
+        - "37"
+        - "36"
     - name: Debian
       versions:
-        - stretch
-        - buster
+        - bullseye
     - name: Ubuntu
       versions:
-        - xenial
-        - zesty
+        - focal
         - bionic
-        - disco
         - focal
   galaxy_tags:
   - webmin
 
-  dependencies: []
