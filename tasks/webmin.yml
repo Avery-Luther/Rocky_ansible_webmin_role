@@ -96,4 +96,3 @@
   reboot:
     reboot_timeout: 3600
   when: not webmin_disable_reboot
-
