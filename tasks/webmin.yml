@@ -34,19 +34,15 @@
   when: ansible_os_family == "RedHat"
 
 - name: Add a gpg key for Debian platforms.
-  apt_key:
+  get_url:
     url: "{{ webmin_gpgkey }}"
-    state: present
+    dest: /etc/apt/trusted.gpg.d/jcameron-key.asc
   when: ansible_os_family == "Debian"
 
 - name: Add apt repository for Debian platforms.
   apt_repository:
     repo: "{{ webmin_apt_repo }}"
     state: present
-  when: ansible_os_family == "Debian"
-
-- name: Update apt cache for Debian platforms.
-  apt:
     update_cache: true
   when: ansible_os_family == "Debian"
 
