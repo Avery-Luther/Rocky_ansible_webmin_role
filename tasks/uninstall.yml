@@ -10,11 +10,8 @@
 
 - name: Remove Webmin files and directories
   file:
-    path: "{{ item }}"
+    path: "/etc/webmin"
     state: absent
-  with_items:
-    - /etc/systemd/system/webmin.service
-    - /etc/webmin
   
 - name: Disable firewalld service.
   firewalld:
