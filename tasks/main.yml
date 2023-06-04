@@ -2,9 +2,9 @@
 # tasks file for webmin #
 
 - name: Install webmin
-  include_tasks: webmin.yml
+  ansible.builtin.include_tasks: webmin.yml
   when: not uninstall_webmin
 
 - name: Uninstall webmin
-  include_tasks: uninstall.yml
+  ansible.builtin.include_tasks: uninstall.yml
   when: uninstall_webmin

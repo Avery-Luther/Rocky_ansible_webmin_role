@@ -1,7 +1,7 @@
 ---
 # handlers file for webmin
 
-- name: restart webmin
-  systemd:
+- name: Restart webmin
+  ansible.builtin.systemd:
     name: webmin
     state: restarted

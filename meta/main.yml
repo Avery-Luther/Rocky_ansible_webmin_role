@@ -26,4 +26,4 @@ galaxy_info:
         - bionic
         - jammy
   galaxy_tags:
-  - webmin
+    - webmin
