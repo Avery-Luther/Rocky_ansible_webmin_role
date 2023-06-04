@@ -37,13 +37,6 @@
     state: absent
   when: ansible_os_family == "Debian"
 
-- name: Uninstall https transport for Debian platforms
-  package:
-    name:
-      - apt-transport-https
-    state: absent
-  when: ansible_os_family == "Debian"
-
 - name: Unnstall supporting packages if added
   package:
     name:
