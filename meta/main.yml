@@ -24,6 +24,6 @@ galaxy_info:
       versions:
         - focal
         - bionic
-        - focal
+        - jammy
   galaxy_tags:
-  - webmin
+    - webmin
