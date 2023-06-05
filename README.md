@@ -1,7 +1,7 @@
 Role Name
 =========
 
-Ansible role to deploy Webmin web-based linux administration utility, running as a 
+[Ansible role](https://galaxy.ansible.com/semuadmin/webmin) to deploy Webmin web-based linux administration utility, running as a 
 systemd service.
 
 Webmin service will be available on https://hostip:10000.
