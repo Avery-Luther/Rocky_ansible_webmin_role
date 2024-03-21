@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: 
+  role_name: rockywebmin
   author: semu/Avery Luther
   description: webmin role updated for Rocky Linux
   company: Independant
