@@ -24,6 +24,19 @@
     state: enabled
     immediate: true
   when: enable_firewalld
+  
+- name: Add yum repository and gpg key for Redhat or Rocky platforms.
+  ansible.builtin.yum_repository:
+    name: webmin
+    description: Webmin yum repo
+    baseurl: "{{ webmin_yum_repo }}"
+    mirrorlist: "{{ webmin_mirrorlist }}"
+    gpgkey: "{{ webmin_gpgkey }}"
+    gpgcheck: true
+    state: present
+  when: (ansible_os_family == "RedHat") or
+        (ansible_os_family == "Rocky")
+  
 
 - name: Add yum repository and gpg key for Redhat platforms.
   ansible.builtin.yum_repository:
