@@ -1,8 +1,8 @@
-### A branch of semuadmin.webmin that works with rocky
+### A branch of semuadmin's webmin Anslibe role that works with Rocky Linux
 
 Role Name
 =========
-[Ansible role](https://galaxy.ansible.com/semuadmin/webmin) to deploy Webmin web-based linux administration utility, running as a 
+[Ansible role](https://galaxy.ansible.com/ui/standalone/roles/Avery-Luther/rockywebmin/) to deploy Webmin web-based linux administration utility, running as a 
 systemd service.
 
 Webmin service will be available on https://hostip:10000.
@@ -54,7 +54,7 @@ Including an example of how to use your role (for instance, with variables passe
          install_utilities: true
 
       roles:
-      - semuadmin.webmin
+      - Avery-Luther.rockywebmin
 ```
      
 License
