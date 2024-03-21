@@ -1,8 +1,8 @@
 galaxy_info:
-  role_name: webmin
-  author: semu
-  description: webmin role
-  company: SEMU Consulting
+  role_name: 
+  author: semu/Avery Luther
+  description: webmin role updated for Rocky Linux
+  company: Independant
 
   license: BSD 3-Clause
 
