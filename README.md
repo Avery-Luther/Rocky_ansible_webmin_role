@@ -1,10 +1,5 @@
 Role Name
 =========
-
-## THIS REPO IS NO LONGER BEING ACTIVELY MAINTAINED OR SUPPORTED.
-
-### IF ANYONE ELSE WANTS TO TAKE ON THE MAINTENANCE AND SUPPORT, FEEL FREE TO FORK IT.
-
 [Ansible role](https://galaxy.ansible.com/semuadmin/webmin) to deploy Webmin web-based linux administration utility, running as a 
 systemd service.
 
